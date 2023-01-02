@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Blog de Codenotch - Un blog para aprender a programar</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Maria Sosa, Carolina Dominguez y Carolina Mariel Rodriguez"/>
+    <meta name="keywords" content="blog, programacion, teoria de programacion"/>
+    <meta name="description" content="Un blog para aprender a programar"/>
+    <link rel="stylesheet" href="../css/condicionales.css">
+    <link rel="stylesheet" href="../css/bootstrap-5.2.0-beta1-dist/css/bootstrap.min.css">
+    <link rel="icon" type="icon/x-image" href="../Img/logo.jpg">
+</head>
+<body>
+    <!--CABECERA fixeada--> 
+    <header>
+        <div class="container-fluid">
+            <div>
+                <div>
+                    <img src="../Img/codenotch-logo-blog.png">
+                </div>
+            </div>
+        </div>
+            
+            
+        <nav class="navbar navbar-expand-lg bg-light " >
+            <div class="container">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#" >
+                      
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                      <ul class="navbar-nav">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Aprender a programar</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link disabled">Codenotch Live</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <hr>
+            </div>
+            
+          </nav>
+        </header>
+    <br>
+        <!--TITULO DEL BLOG-->
+        <div id="titulo">
+            <h2>Blog post</h2>
+        </div>
+    
+   
+    <br>
+     <!--CUERPO--> 
+    <div class="body">
+                
+        <!--ARTICULO DEL LADO IZQUIEDO DE LA PANTALLA-->
+        <div class="articulo">
+
+            <div class="imagen">
+                <img src="../Img/Que-son-los-condicionales-1200x675.jpg" />
+            </div>
+
+            <!--LA NOTICIA-->
+        <div class="contenido-articulo">
+            <br>
+            <div class="noticia">
+                <div id="titulo-noticia">
+                <h6>APRENDE A PROGRAMAR</h6>
+                <h1>¿Qué son los condicionales  en la programación?</h1>
+                </div>
+                
+                <p>
+                    Ya aprendiste a identificar los tipos de variables y cómo declararlas, pero lo más importante es que te diste cuenta de que con muy poco eres capaz de representar fórmulas matemáticas complejas, así que imagina lo que vas a poder hacer con estructuras de control como condicionales o ciclos.
+                    
+                    </p>
+                    <p>Este es el ABC de la programación, por eso es muy importante que interiorices qué es cada cosa para que a la hora de pensar un algoritmo no tengas ningún problema en sacarlo de tu cabeza. Te mentiría si te dijera que en poco tiempo vas a ser capaz de hablar código, pero creo que si sigues el camino adecuado, convertirás todas estas estructuras sin sentido en arte.</p>
+                    <h3>¿Qué son los condicionales ?
+                    </h3>
+                    <p>Un condicional, como su nombre lo indica, es una condición para discernir entre una opción u otra, y en el proceso mental normalmente se manifiesta con un “Si”; por ejemplo: Si (va a llover), coge el paraguas.</p>
+                    <h3>Operadores lógicos</h3>
+                    <p>Para crear condiciones, por muy simples que sean, se necesitan los operadores lógicos. A continuación voy a explicarlos de modo que, después de leer este artículo, puedas escribir condiciones ajustadas a lo que necesites.
+    
+                    </p>
+    
+                    <p><i>== significa “igual”. If x==y, significa “si x es igual a y”</i></p>
+                    <p><i>> significa “mayor que”. If x>y, significa “si x es mayor que y”</i></p>
+                    <p><i>< significa “menor que”. If x < y, significa “si x es menor que y” </i></p>
+                    <p><i>!= significa “si es distinto”. If x!=y, significa “si x es distinto de y”</i></p>
+                    <p><i>&& significa “Y”, la conjunción copulativa; es decir: If (x==y) && (x==z), significa “si x es igual a y Y x igual a z”</i></p>
+                    <p><i>|| significa “O”, la conjunción adversativa; es decir, If  (x==y) || (x==z), significa “si x es igual a y O x igual a z”</i></p>
+    
+                    
+    
+                    <h3>IF</h3>
+                    <p>Sintácticamente, es la palabra reservada para desencadenar el poder de los condicionales en el código.
+    
+                    </p>
+                    <h3>ELSE</h3>
+                    <P>Expresa “en el caso contrario”. Siguiendo con el ejemplo anterior de la lluvia: if(va a llover) coge el paraguas else coge el bañador.</P>
+    
+                    <div class="imagenes-noticias">
+                    <img src="../Img/else-picture-1024x431.png" alt="">
+                    </div>
+    
+                    <h3>SWITCH</h3>
+                    <p>Es una estructura de control diseñada para diferentes condiciones ligadas a una decisión. Básicamente, es como poner una pila de IF, que sería más eficiente en cuanto a rendimiento, pero haría que tu código fuera ilegible, así que… ¡no es una opción!
+    
+                    </p>
+                    <p>Su sintaxis se basa en las palabras switch (variable) y case. Estos últimos plantean los casos en los que el código se dispara: si el case está a 1 y la variable contiene ese valor, se disparará el código que esté dentro de él. Cada uno de los casos se delimita con la palabra reservada break.</p>
+    
+                    <div class="imagenes-noticias">
+                        <img src="../Img/switch-picture.png" alt="">
+                    </div>
+
+        
+
+               
+
+        
+            <!--imagen de propaganda-->
+            <div class="publicidad">
+                <a href="https://www.codenotch.com/aprende-a-programar?utm_source=FacebookAds&utm_medium=ppc&utm_campaign=guia_aprende&utm_term=es&utm_page=landing&fbclid=PAAaYLRBFD8TYTVSJi4kXLwWb1XW1qyEGK82Wn_FGEQAp6JjlAN4ACqp-RvLM_aem_AazY_o2Ut9tj7Wsof_g-UaeGKXoLbU5FGVM7Mf6sbhVOcKQlCf3zQIXvcMCdoDQXbP9f0G3-Blsd2OojjXCJse2WbpJ0j7IBxM_3l4AYLYPUdGRQRRH1WKPYWvpPVZ7GE30"><img src="../Img/PUBLICIDAD.png"/></a>
+            </div>
+        
+
+            <!--TAGS-->
+            <div class="tags">
+            
+            <button type="button">#TAGS</button>
+            <button type="button">#PROGRAMACION</button>
+            <button type="button">#APRENDER</button>
+            <button type="button">#BOOTCAMP</button>
+            <button type="button">#HumansOfCodenotch</button>
+
+            </div>
+
+            <!--pasar a otras noticias con fondo de pantalla, link, titulos-->
+            <div class="otras-noticias">
+                <div class="otras-izquierda">
+                <div id="AD">  
+                    <h6>Ciclos o bucles</h6>
+                </div>
+                
+                <div id="AI">
+                    <a href="./ciclos.html">
+                    <img src="../img/flecha izq.svg"></a>
+                </div>
+            </div>
+            
+            <div class="otras-derecha">
+                <div id="BI">
+                    
+                    <h6>Funciones</h6>
+                </div>
+                
+                <div id="BD">
+                    <a href="./funciones.html">
+                    <img src="../img/flecha der.svg"></a>
+                </div>
+    
+            </div>
+            
+           
+            </div>
+            
+            <br>
+            <br>
+        <!---COMENTARIOS-->
+        <div class="" >
+            <h4>Deja una respuesta</h4>
+            <button onclick="Opem('form')" data-abierto="form" id="btnabrir" class="form btn btn-light"> 
+                <img src="../Img/comentario.svg" alt=""> 
+            </button> 
+            <br>
+        </div>
+        <div class="a-3" id="form">   
+            <div> 
+                <form action="#" >
+                    <div class="mb-3">
+                        <label for="TxtNombres">Nombres: </label>
+                        <input class="input" type="text" name="TxtNombres" id="TxtNombres" placeholder="Nombres" autofocus required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="TxtApellidos">Apellidos: </label>
+                        <input class="input" type="text" name="TxtApellidos" id="TxtApellidos" placeholder="Apellidos" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="TxtComentarios"></label>
+                        <textarea  name="TxtComentarios" id="TxtComentarios" placeholder="Comentarios" 
+                         class="textarea" required></textarea>
+                    </div>
+                    <div >
+                        <button class="btn btn-light" type="submit" id="btnguardarCondicionales">Comentar</button>
+                    </div>
+                </form>
+            </div>
+            </div>
+            <div>
+                <h2>Comentarios</h2>
+                <div class="comentarios3"> 
+                <label for="">Cantidad de Comentarios:  </label>
+                <br>
+                <h5 id="cantDeComentariosCondicionales"> </h5>
+                </div>
+                <br>
+                <div class="CantComentarios" id="ResultadoDComentariosCondicionales">
+                
+                </div>
+            </div> 
+        
+        
+        </div>
+        <br>
+        <br>
+         <!--LOS BOTONES A LA IZQUIERDA DE LA SECCION 2-->
+         <div class="noticia-redes">
+            <div id="noticia-redes1">
+                <a href="https://twitter.com/codenotchmad"><img src="../Img/twitter.svg" /></a>
+             </div>
+             
+            <div id="noticia-redes2">
+                <a href="https://www.facebook.com/codenotchMAD/"><img src="../Img/facebook.svg" /></a> 
+            </div>
+            
+            <div id="noticia-redes3">
+                <a href="https://www.instagram.com/codenotchmad/"><img src="../Img/instagram.svg" /></a>
+             </div>
+             
+            <div id="noticia-redes4">
+                <a href="https://www.linkedin.com/school/codenotch/"><img src="../Img/linkedin.svg" /></a>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!--ASIDE--> 
+    <div class="aside">
+        <div class="aside-bootcamp">
+            <h4>Bootcamp de Desarrollo Web y Móvil</h4>
+            <a href="https://codenotch.com/aplica"><img src="../Img/bootcamp.png" /></a>
+        </div>
+        <br>
+    <!--ULTIMOS POST A LA DERECHA DE SECCION 2-->
+        <div class="aside-post">
+            <h5>Post recientes</h5>
+                <div id="post1">
+                    
+                    <img src="../Img/css.png" />
+                    <a href="./css.html">
+                     <h6>¿Que es CSS?</h6></a>
+                </div>
+                <br>
+                <div id="post2">
+                    
+                    <img src="../Img/que-es-javascrit.png" />
+                    <a href="./js.html">
+                     <h6>¿Que es JS?</h6></a>
+                </div>
+                <br>
+                <div id="post3">
+                    
+                    <img src="../Img/HTML.png" />
+                    <a href="./html.html">
+                     <h6>¿Que es HTML?</h6></a>
+                </div>   
+        </div>
+
+        <br>
+<!--Botones de la seccion media, horizontales debajo de los ultimos post-->
+        <div class="aside-redes">
+            <h6>Social Media</h6>
+            
+                <div id="social1">
+                    <a href="https://twitter.com/codenotchmad"><img src="../Img/twitter.svg" /></a>
+                 </div>
+                 
+                <div id="social2">
+                    <a href="https://www.facebook.com/codenotchMAD/"><img src="../Img/facebook.svg" /></a> 
+                </div>
+                
+                <div id="social3">
+                    <a href="https://www.instagram.com/codenotchmad/"><img src="../Img/instagram.svg" /></a>
+                 </div>
+                 
+                <div id="social4">
+                    <a href="https://www.linkedin.com/school/codenotch/"><img src="../Img/linkedin.svg" /></a>
+                </div>
+        </div>
+
+        <br>
+        <br>
+        <div class="aside-facebook">
+
+            <h6>Facebook</h6>
+            <a href="https://www.facebook.com/codenotchMAD/"><img src="../Img/face-aside.png"/></a> 
+        </div>
+        <!--boton que te lleva arriba de todo-->
+        <a href="#titulo"><button type="button" id="btnFlecha"><img src="../Img/up-arrow-svgrepo-com.svg" ></button></a>
+    </div>
+
+    
+       
+    </div>   
+    
+
+
+     <!--PIE DE PAGINA--> 
+    <footer>
+         
+
+        <div class="contenido-footer">
+         
+
+            <div class="footer1">
+                <h4>Codenotch</h4>
+                <hr>
+                <h5>Reinventa tu carrera en 12 semanas</h5>
+                <h6>Codenotch imparte Bootcamps presenciales de Desarrollo Web y Móvil en Madrid.</h6>
+                <!--Social media botones-->
+                <div class="redes-sociales">
+                    <div id="social1">
+                        <a href="https://twitter.com/codenotchmad"><img src="../Img/twitter.svg" /></a>
+                    </div>
+    
+                    <div id="social2">
+                       <a href="https://www.facebook.com/codenotchMAD/"><img src="../Img/facebook.svg" /></a> 
+                    </div>
+                    
+                    <div id="social3">
+                        <a href="https://www.instagram.com/codenotchmad/"><img src="../Img/instagram.svg" /></a>
+                    </div>
+    
+                    <div id="social4">
+                        <a href="https://www.linkedin.com/school/codenotch/"><img src="../Img/linkedin.svg" /></a>
+                    </div>
+    
+                </div>
+                
+            </div>
+       
+            <div class="footer2">
+                            <h4>Newsletter</h4>
+                            
+                            <hr>
+                           
+                        <div class="newsletter">
+                            <h6>Para estar siempre al día de nuestras
+                                noticias y eventos:</h6>
+                
+                                <form>
+                                    <div class="mb-3">
+                                      <label for="exampleInputEmail1" class="form-label">Email </label>
+                                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingrese su E-mail">
+                                      <div id="emailHelp" class="form-text"></div>
+                                    </div>
+                                    <div class="mb-3">
+                                      <label for="exampleInputPassword1" class="form-label">Nombre</label>
+                                      <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Ingrese su nombre">
+                                    </div>
+                                    <div class="mb-3 form-check">
+                                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                      <label class="form-check-label" for="exampleCheck1">Acepto terminos y condiciones</label>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">Suscribirme</button>
+                                  </form>
+                
+                                  <h6>He leído y acepto la política de privacidad y las condiciones*</h6>
+                                  <a href="">Leer la Politica de privacidad y las Condiciones legales</a>
+                            
+                           
+                
+                                </div>
+                        
+                    </div>
+                </div>
+               
+            </div>
+    
+           
+
+        </div> 
+        
+
+        
+    </footer>
+
+
+    <script src="../Js/pagina.condicionales.js"></script>
+   
+</body>
+</html>

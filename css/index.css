@@ -1,0 +1,492 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*LOS MEDIAS*/
+@media screen and (max-width: 600px) {
+ 
+   
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(".Fonts/Montserrat-VariableFont_wght.ttf");
+}
+/*HEADER*/
+header{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    position: fixed;
+    background-color: rgb(248, 246, 246);
+}
+
+.container.fluid{
+    flex-direction: row;
+    width: 30%;
+    background-color: rgb(248, 246, 246);
+}
+
+nav{
+    flex-direction: row;
+    width: 70%;
+}
+/*TODO EL CONTENIDO DEL CUERPO SIN FOOTER NI HEADER*/
+.body{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+
+/*TITULO DEL BLOG en gral,  NO DE LA NOTICIA*/
+#titulo{
+    width: 100%;
+    background-color: rgb(248, 246, 246);
+    height: 5cm;
+    display: flex;
+    justify-items: flex-end;
+    align-items: center;
+    
+}
+
+/*TITULO DEL BLOG: estilos de la letra*/
+#titulo  h2{
+    font-family: "Montserrat";
+    font-size: 25px;
+    margin-left: 2cm;
+}
+
+
+/*TARJETAS, SE REPARTE EN DOS LADOS IZQ Y DERECHO*/
+.izquierda{
+    width: 30%;
+    flex-direction: column;
+    height: 3200px;
+    
+}
+/*ARTICULO 1*/
+.contenedor1{
+   
+    height: 200px;
+  
+}
+.info{
+    width: 200%;
+    height: 200px;
+}
+.thumb img{
+    width: 200%;
+    height: 200px;
+    border-radius: 5px;
+}
+.categorias{
+    float: right;
+   
+}
+/*ARTICULO 2*/
+.contenedor2i{
+    height: 200px;
+
+    margin-top: 10cm;
+}
+.info2i{
+    width: 200%;
+    height: 200px;
+}
+.thumb2i img{
+    width: 200%;
+    height: 200px;
+    border-radius: 5px;
+}
+.categorias2i{
+    float: right;
+   
+}
+
+/*ARTICULO 3*/
+.contenedor3i{
+    height: 200px;
+
+    margin-top: 10cm;
+}
+.info3i{
+    width: 200%;
+    height: 200px;
+}
+.thumb3i img{
+    width: 200%;
+    height: 200px;
+    border-radius: 5px;
+}
+.categorias3i{
+    float: right;
+   
+}
+
+
+/*ARTICULO 4*/
+.contenedor4i{
+    height: 200px;
+
+    margin-top: 10cm;
+}
+.info4i{
+    width: 200%;
+    height: 200px;
+}
+.thumb4i img{
+    width: 200%;
+    height: 200px;
+    border-radius: 5px;
+}
+.categorias4i{
+    float: right;
+   
+}
+
+
+/*ARTICULO 5*/
+.contenedor5i{
+    height: 200px;
+
+    margin-top: 10cm;
+}
+.info5i{
+    width: 200%;
+    height: 200px;
+}
+.thumb5i img{
+    width: 200%;
+    height: 200px;
+    border-radius: 5px;
+}
+.categorias5i{
+    float: right;
+   
+} 
+
+
+/*TARJETAS DEL LADO DERECHO*/
+
+
+
+.derecha{
+
+    width: 30%;
+    flex-direction: column;
+    height: 3200px;
+}
+/*ARTICULO 1*/
+.contenedor1d{
+    
+    height: 200px;
+
+}
+.info1d{
+    width: 200%;
+    height: 200px;
+}
+.thumb1d img{
+    width: 200%;
+    height: 200px;
+    border-radius: 5px;
+}
+.categorias1d{
+    float: right;
+   
+}
+/*ARTICULO 2*/
+.contenedor2d{
+    margin-top: 11cm;
+    height: 200px;
+
+}
+.info2d{
+    width: 200%;
+    height: 200px;
+}
+.thumb2d img{
+    width: 200%;
+    height: 200px;
+    border-radius: 5px;
+}
+.categorias2d{
+    float: right;
+   
+}
+
+/*ARTICULO 3*/
+.contenedor3d{
+    margin-top: 11cm;
+    height: 200px;
+
+}
+.info3d{
+    width: 200%;
+    height: 200px;
+}
+.thumb3d img{
+    width: 200%;
+    height: 200px;
+    border-radius: 5px;
+}
+.categorias3d{
+    float: right;
+   
+}
+
+/*ARTICULO 4*/
+.contenedor4d{
+    margin-top: 10cm;
+    height: 200px;
+
+}
+.info4d{
+    width: 200%;
+    height: 200px;
+}
+.thumb4d img{
+    width: 200%;
+    height: 200px;
+    border-radius: 5px;
+}
+.categorias4d{
+    float: right;
+   
+}
+
+/*ARTICULO 5*/
+.contenedor5d{
+    margin-top: 11cm;
+    height: 200px;
+
+}
+.info5d{
+    width: 200%;
+    height: 200px;
+}
+.thumb5d img{
+    width: 200%;
+    height: 200px;
+    border-radius: 5px;
+}
+.categorias5d{
+    float: right;
+   
+}
+
+
+    
+/*ASIDE, DEL LADO DERECHO*/
+.aside{
+    width: 30%;
+    flex-direction: column;
+    height: 2700px;
+}
+
+
+.aside-bootcamp h4{
+    color: grey;
+    font-family: Arial;
+    font-size: 1.5rem;
+    height: 2cm;
+}
+
+.aside-post h5{
+    color: grey;
+    font-family: Arial;
+    font-size: 1.5rem;
+    height: 2cm;
+}
+
+
+#post1{
+    display: inline-flex;
+    flex-direction: row;
+}
+
+#post1 h6{
+    font-size: 1rem;
+    color: #5f5d5d;
+}
+
+#post1 img{
+    height: 70px;
+    width: 70px;
+}
+
+#post2{
+    display: inline-flex;
+    flex-direction: row;
+}
+
+#post2 h6{
+    font-size: 1rem;
+    color: #5f5d5d;
+}
+
+#post2 img{
+    height: 70px;
+    width: 70px;
+}
+
+#post3{
+    display: inline-flex;
+    flex-direction: row;
+}
+
+#post3 h6{
+    font-size: 1rem;
+    color: #5f5d5d;
+}
+#post3 img{
+    height: 70px;
+    width: 70px;
+}
+
+.aside-redes h6{
+    color: grey;
+    font-family: Arial;
+    font-size: 1.5rem;
+    height: 2cm;
+}
+
+.aside-redes div{
+    display: inline-flex;
+    flex-direction: row;
+}
+
+
+.aside-facebook h6{
+    color: grey;
+    font-family: Arial;
+    font-size: 1.5rem;
+    height: 2cm;
+}
+
+#btnFlecha {
+    color: white;
+    height: 80px;
+    width: 80px;
+    margin-top: 100vmax;
+    margin-left: 3cm;
+    border-radius: 5px;
+
+}
+
+
+#btnFlecha:hover{
+    cursor: pointer;
+}
+
+
+
+/*FOOTER*/
+footer{
+    height: 700px;
+    width: 100%;
+    top: 6cm;
+    background-color: #1e1e1e;
+    clear: both;
+    
+}
+
+.contenido-footer{
+ width: 100%;
+ height: 700px;
+ padding: 80px;
+ display: flex;
+
+}
+
+.footer1{
+    width: 50%;
+    flex-direction: column;
+    color: white;
+}
+
+.footer1 h4{
+    font-size: 25px;  
+}
+
+.footer1 h5{
+    font-size: 20px;
+    font-style: italic;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.footer1 h6{
+    line-height: 1.9;
+    color: white;
+    font-size: 15px;
+
+}
+
+.redes-sociales{
+    width: 4.5cm;
+    height: 1cm;
+    top: 0.5cm;
+    background-color: #ffffff;
+}
+
+#social1{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+   
+}
+
+
+
+#social2{
+    width: 30px;
+    height: 30px;
+    margin-left: 0.2cm;
+    display: inline-block;
+    
+}
+
+#social3{
+    width: 30px;
+    height: 30px;
+    margin-left: 0.2cm;
+    display: inline-block;
+  
+}
+
+#social4{
+    width: 30px;
+    height: 30px;
+    margin-left: 0.2cm;
+    display: inline-block;
+   
+}
+
+
+.footer2{
+    width: 50%;
+    flex-direction: column;
+    color: white;
+}
+
+.footer2 h4{
+    font-size: 25px;  
+}
+
+
+footer h3{
+    width: 100%;
+    height: 2cm;
+    font-size: xx-large;
+    color: blue;
+    background-color: #1e1e1e;
+
+}
+
